@@ -26,7 +26,7 @@
 .Features{
     div{
         width: 30%;
-        min-width: 400px;
+        min-width: 300px;
         flex-grow: 1;
     }
     img {
@@ -46,7 +46,7 @@
 .Avaliacoes{
     div{
         flex-grow: 1;
-        min-width: 350px;
+        min-width: 220px;
         width: 30%;
         margin-top: 1rem;
         img{
@@ -183,6 +183,14 @@
         flex-direction: column-reverse;
         img , div{
             width: 100%;
+        }
+    }
+    #contato{
+        form{
+            max-width: 275px;
+            textarea{
+                columns: 20;
+            }
         }
     }
 }

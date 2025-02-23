@@ -217,7 +217,7 @@ export default function App() {
                         <label htmlFor="">Email</label> <br />
                         <input type="text" className="w-100" /> <br />
                         <label htmlFor="">Mensagem</label> <br />
-                        <textarea name="" id="" cols={40} rows={4}></textarea> <br />
+                        <textarea name="" id="" cols={30} rows={4}></textarea> <br />
                         <button type="submit" className="button rounded">Enviar</button>
                     </form>
                 </div>
