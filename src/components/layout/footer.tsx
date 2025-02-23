@@ -23,13 +23,12 @@ export default function Footer(){
                 </svg>
             </div>
             <div className="d-flex justify-content-between  fs-4 FooterLinks gap-5">
-                <a href="#nav" className="text-decoration-none text-white">Home</a>
-                <a href="#sobre" className="text-decoration-none text-white">Sobre</a>
-                <a href="#contato" className="text-decoration-none text-white">Contate-nos</a>
+                <p className="fs-6">© 2025 JoyLearn. Todos os direitos reservados.
+                </p>
             </div>
         </footer>
         <div className="bg-blue text-white text-end">
-            <span className="px-4">Desenvolvido por : <a href="" className="text-white">João Masullo</a></span>
+            <span className="px-4">Desenvolvido por : <a href="https://www.linkedin.com/in/jo%C3%A3o-masullo-846b672b9/" className="text-white">João Masullo</a></span>
         </div>
     </>
     )

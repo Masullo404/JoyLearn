@@ -19,7 +19,7 @@ export default function App() {
       <section className="d-flex flex-column align-items-center justify-content-center py-5">
           <p className="display-2 pt-5">Por que JoyLearn?</p>
           <p className="text-center fs-5 w-50">O JoyLearn é uma nova forma de educação, tornando o ensino um processo único ao criar um ambiente dinâmico e divertido para a aprendizagem.</p>
-          <img src="https://images.pexels.com/photos/4260482/pexels-photo-4260482.jpeg"
+          <img src="https://images.pexels.com/photos/5303555/pexels-photo-5303555.jpeg"
           alt="image" className="rounded ImageSecondSection object-fit-cover mt-5" />
       </section>
 
@@ -205,10 +205,11 @@ export default function App() {
 
             <main className="p-5 d-flex justify-content-center gap-5 fs-3 bg-second" id="contato">
                 <div className=" align-content-center rounded p-5 text-white bg-second">
-                    <p className="h1">Get in Touch With Us</p>
-                    <p>Have a question, need assistance, or just want to say hello? We’re here to help! Whether you’re looking for more information,
-                    have a specific request, or want to provide feedback, we’d love to hear from you. Fill out the form below, and our team will
-                    get back to you as soon as possible. You can also reach us through the contact details provided.</p>
+                    <p className="h1">Entre em contato conosco</p>
+                    <p>Tem alguma dúvida, precisa de assistência ou quer apenas dizer olá? Estamos aqui para ajudar! 
+                    Seja para obter mais informações, fazer uma solicitação específica ou compartilhar seu feedback,
+                    adoraríamos ouvir você. Preencha o formulário abaixo e nossa equipe retornará o mais rápido possível.
+                    Você também pode nos contatar através dos detalhes fornecidos.</p>
                 </div>
                 <div className=" align-content-center bg-second text-white  p-5 d-flex flex-column justify-content-center align-items-center   ">
                     <form>
