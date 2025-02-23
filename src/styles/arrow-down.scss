@@ -1,0 +1,25 @@
+.arrow-down {
+  position: relative;
+  width: 2px;
+  height: 20px;
+  background-color: #fff;
+  animation: pulse 1s infinite ease-in-out;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+  }
+}
+
+@keyframes pulse {
+  0% { transform: translateY(0); opacity: 1; }
+  50% { transform: translateY(10px); opacity: 0.6; }
+  100% { transform: translateY(0); opacity: 1; }
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Schoolbell&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Schoolbell",serif;
+}
+.bg-blue{
+    background-color: #2035C4;
+}
+.bg-second{
+    background-color: #048A81;
+}
+.bg-yellow{
+    background-color: #F7B32B;
+}
+.button{
+    padding: 0.5rem;
+    border: none;
+    transition: 1s;
+    background-color: #2035C4;
+    color: white;
+}
+.button:hover{
+    transition: 1s;
+    background-color: #F7B32B;
+    color: black;
+}
+.Back-Arrow{
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    border-radius: 100%;
+    margin: 2rem;
+    height: 35px;
+    width: auto;
+    padding: 0.5rem;
+}
+// Nav and footer responsitivity
+.LinksNav{
+    width: 25%;
+}
+@media screen and (max-width:900px) {
+    #nav *{
+        font-size: 17px;
+    }
+    .LinksNav{
+        width: 50%;
+    }
+    .footer{
+        flex-wrap: wrap;
+        div{
+            margin-top: 3rem;
+        }
+        .FooterLinks{
+            min-width: 290px;
+        }
+    }
+}

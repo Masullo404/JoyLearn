@@ -1,0 +1,188 @@
+.FirstSection{
+    position: relative;
+    z-index: 1;
+    background-image: linear-gradient(#2035C4,#048A81);
+    min-height: 90vh;
+    img{
+        height: 60vh;
+    }
+    .right-side{
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+}
+.Funcionalidades {
+    div,img{
+        width: 50%;
+    }
+}
+.Image{
+    filter: brightness(0.7);
+}
+.ImageSecondSection{
+    width: 90%;
+    max-height: 35vh;
+}
+.Features{
+    div{
+        width: 30%;
+        min-width: 400px;
+        flex-grow: 1;
+    }
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.ComunidadeSection{
+    flex-direction: row;
+    img {
+        width: 50%;
+    }
+    div{
+        width: 50%;
+    }
+}
+.Avaliacoes{
+    div{
+        flex-grow: 1;
+        min-width: 350px;
+        width: 30%;
+        margin-top: 1rem;
+        img{
+            min-width: 200px;
+        }
+        .stars{
+            max-height: 16px;
+        }
+    }
+}
+#sobre div.w-100 img{
+    width: 50%;
+}
+.Contact-btn{
+    background-color: #2035C4;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+.Contact-btn:hover{
+    background-color: #048A81;
+    color: white;
+    transition: 0.5s;
+}
+.ProfileImage{
+    width: 15vw;
+    height: 28vh;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.Visao , .Futuro{
+    p.display-2{
+        font-size: 72px;
+    }
+    p{
+        font-size: 1.25rem;
+    }
+    div,img{
+        width: 50%;
+    }
+}
+#contato{
+    min-height: 80vh;
+    div{
+        width: 50%;
+    }
+}
+// Responsivity
+
+@media screen and (max-width:1200px) {
+    .Funcionalidades{
+        p{
+            font-size: 35px;
+        }
+        li{
+            font-size: 15px;
+        }
+    }
+    #contato{
+        p.h1{
+        font-size: 40px;   
+        }
+        p{
+            font-size: 1.25rem;
+        }
+    }
+}
+@media screen and (max-width:940px) {
+        .ComunidadeSection{
+            flex-direction: column;
+            img {
+                width: 100%;
+            }
+            div{
+                padding: 5rem 1rem;
+                width: 100%;
+            }
+        }
+        .Visao,.Futuro{
+            p.display-2{
+                font-size: 40px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+        #contato{
+            flex-direction: column;
+            div {
+                width: 100%;
+            }
+        }
+}
+@media screen and (max-width:870px) {
+    .Funcionalidades{
+        flex-direction: column;
+        img ,div{
+            width: 90%;
+        }
+    }
+    #sobre{
+        div.w-100{
+            flex-direction: column;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width:750px) {
+    .FirstSection {
+        .display-1{
+            font-size: 40px;  
+        }
+        .fs-3{
+            font-size: 20px !important; 
+        }
+    }
+}
+@media screen and (max-width:700px) {
+    .Funcionalidades{
+        flex-direction: column;
+    }
+    .Funcionalidades *{
+        width: 100%;
+    }
+    .Visao{
+        flex-direction: column;
+        img , div{
+            width: 100%;
+        }
+    }
+    .Futuro{
+        flex-direction: column-reverse;
+        img , div{
+            width: 100%;
+        }
+    }
+}
