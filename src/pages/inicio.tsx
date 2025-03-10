@@ -4,9 +4,10 @@ export default function Inicio() {
     <main className="bg-light">
         
         <section className="d-flex flex-column justify-content-center align-items-center gap-5 text-white FirstSection position-relative">
-          <video className="w-100 h-100 object-fit-cover " autoPlay loop src="https://videos.pexels.com/video-files/3209663/3209663-uhd_2560_1440_25fps.mp4"></video>
+          <video className="w-100 h-100 object-fit-cover" preload="metadata" autoPlay={true} loop src="https://videos.pexels.com/video-files/3209663/3209663-uhd_2560_1440_25fps.mp4">
+          Your browser does not support the video tag.</video>
           <div className="position-absolute w-100 d-flex flex-column gap-5 pt-5 align-items-center text-white DPad">
-            <p className="text-center display-1">Desbloqueando o Potencial <br />de Cada Criança</p>
+            <p className="text-center display-1" >Desbloqueando o Potencial <br />de Cada Criança</p>
             <p className="w-50 top-50">O JoyLearn é um aplicativo de aprendizado revolucionário, desenvolvido para ajudar 
             crianças com necessidades especiais a compreender conceitos de forma mais rápida e fácil. 
             Com caminhos de aprendizado personalizados, lições interativas e um ambiente acolhedor, 
@@ -17,7 +18,7 @@ export default function Inicio() {
 
         <section className="d-flex justify-content-center gap-5 align-items-center DPad SecondSection" style={{marginTop:"5rem"}}>
           <div className="d-flex flex-column w-25 align-items-center justify-content-center">
-            <p className="display-4">O JoyLearn oferece diversas funcionalidades, incluindo:</p>
+            <p className="display-4" >O JoyLearn oferece diversas funcionalidades, incluindo:</p>
             <ul>
               <li>
               Aprendizado Adaptativo – Lições personalizadas de acordo com as necessidades únicas de cada criança.

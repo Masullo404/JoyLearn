@@ -10,6 +10,7 @@ import Sobre from './pages/sobre.tsx'
 import RecursosPage from './pages/recursos.tsx'
 import ContatoPage from './pages/contato.tsx'
 
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
       <NavBar />
