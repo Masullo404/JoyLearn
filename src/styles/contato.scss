@@ -1,0 +1,36 @@
+.Contato{
+    background-image: linear-gradient(rgb(32, 53, 196),rgb(15, 26, 94));
+    div{
+        form{
+            z-index: 1;
+            height: 100%;
+            background-color: rgb(4, 138, 129);
+            input{
+                border-radius: 1em;
+                padding: 0.5em;
+                border: solid white 1px;
+            }
+            textarea{
+                border: solid white 1px;
+                border-radius: 1em;
+                padding: 1em;
+            }
+        }
+        img{
+            margin-left: -5rem;
+            border-radius: 1em;
+        }
+    }
+}
+@media screen and (max-width:1500px) {
+    .Contato > div{
+        flex-direction: column;
+        width: 100% !important;
+        img{
+            display: none;
+        }
+        form{
+            width: 90% !important;
+        }
+    }
+}
