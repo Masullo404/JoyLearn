@@ -33,7 +33,7 @@ export default function Inicio() {
               Ambiente Seguro e Acolhedor – Um espaço livre de distrações, onde as crianças se sentem incentivadas e confiantes.
               </li>
             </ul>
-            <button className="button white">Ver mais</button>
+            <a href="/recursos"><button className="button white">Ver mais</button></a>
           </div>
           <img src="https://images.unsplash.com/photo-1568585219057-9206080e6c74" alt="" className="w-50 h-100 rounded object-fit-cover"/>
         </section> 
@@ -84,7 +84,7 @@ export default function Inicio() {
           <div className="text-white position-absolute">
             <p className="display-3">Dúvidas?</p>
             <p className="fs-5">CLique no botão abaixo para mais informações sobre o joyLearn.</p>
-            <button className="button">Ver Mais</button>
+            <a href="/sobre"><button className="button">Ver Mais</button></a>
           </div>          
         </section>
 
