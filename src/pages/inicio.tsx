@@ -1,11 +1,9 @@
-
 export default function Inicio() {
   return (
     <main className="bg-light">
         
         <section className="d-flex flex-column justify-content-center align-items-center gap-5 text-white FirstSection position-relative">
-          <video className="w-100 h-100 object-fit-cover" preload="metadata" autoPlay={true} loop src="https://videos.pexels.com/video-files/3209663/3209663-uhd_2560_1440_25fps.mp4">
-          Your browser does not support the video tag.</video>
+          <img className="w-100 h-100 object-fit-cover" src="/exam.png" alt="Kid taking an exam" />
           <div className="position-absolute w-100 d-flex flex-column gap-5 pt-5 align-items-center text-white DPad">
             <p className="text-center display-1" >Desbloqueando o Potencial <br />de Cada Criança</p>
             <p className="w-50 top-50">O JoyLearn é um aplicativo de aprendizado revolucionário, desenvolvido para ajudar 
@@ -18,7 +16,7 @@ export default function Inicio() {
 
         <section className="d-flex justify-content-center gap-5 align-items-center DPad SecondSection" style={{marginTop:"5rem"}}>
           <div className="d-flex flex-column w-25 align-items-center justify-content-center">
-            <p className="display-4" >O JoyLearn oferece diversas funcionalidades, incluindo:</p>
+            <p className="display-4">O JoyLearn oferece diversas funcionalidades, incluindo:</p>
             <ul>
               <li>
               Aprendizado Adaptativo – Lições personalizadas de acordo com as necessidades únicas de cada criança.
@@ -40,11 +38,11 @@ export default function Inicio() {
 
         <section className="d-flex flex-column align-items-center justify-content-center gap-5 DPad text-white ThirdSection" style={{backgroundColor:"rgb(15, 26, 94)"}}>
           <p className="display-3">Inovação e inclusão</p>
-          <p>Oferecemos suporte educacional para crianças com necessidades especiais, promovendo aprendizado e desenvolvimento inclusivo.</p>
+          <p className="text-center w-100">Oferecemos suporte educacional para crianças com necessidades especiais, promovendo aprendizado e desenvolvimento inclusivo.</p>
 
           <div className="w-75 d-flex justify-content-center gap-3">
             <div className="w-50 d-flex flex-column align-items-center">
-                <img src="https://images.unsplash.com/photo-1496239982426-9f0575444c52?auto=format&fit=crop&w=606&h=304" alt="" className="rounded w-100  " />
+                <img src="https://images.unsplash.com/photo-1496239982426-9f0575444c52?auto=format&fit=crop&w=606&h=304" alt="A tablet showing apps" className="rounded w-100  " />
                 <div className="bg-white p-5 text-black text-center Cards w-75 ">
                   <p className="h1">Recursos Didáticos</p>
                   <p>Disponibilizamos materiais e ferramentas educativas que facilitam o aprendizado e a interação de crianças especiais.</p>
@@ -52,7 +50,7 @@ export default function Inicio() {
             </div>
 
             <div className="w-50 d-flex flex-column align-items-center">
-                <img src="https://images.unsplash.com/photo-1694532409273-b26e2ce266ea?auto=format&fit=crop&w=606&h=304" alt="" className="rounded w-100 " />
+                <img src="https://images.unsplash.com/photo-1694532409273-b26e2ce266ea?auto=format&fit=crop&w=606&h=304" alt="Classroom with children and computers" className="rounded w-100 " />
                 <div className="bg-white p-5 text-black text-center Cards w-75 ">
                   <p className="h1">Apoio Personalizado</p>
                   <p>Nossos serviços incluem atendimento individualizado, adaptando atividades para atender às necessidades de cada criança.</p>
@@ -66,15 +64,17 @@ export default function Inicio() {
     
             <div className="d-flex justify-content-center gap-5 mt-5">
               <div className="text-center w-25">
-                <p className="fs-4">”Every day, they strive to improve their service to the clients by developing 
-                the right blend of technology and creativity to make sure every job done is done as efficiently as possible.”</p>
-                <p className="mt-5 fs-6">- Clarice Turner</p>
+                <p className="fs-4">”Todos os dias, eles se esforçam para melhorar o atendimento aos clientes,
+                desenvolvendo a combinação certa de tecnologia e criatividade para garantir que cada trabalho 
+                realizado seja feito da forma mais eficiente possível.”</p>
+                <p className="mt-5 fs-6">- Mônica Matos (Diretora)</p>
               </div>
 
               <div className="text-center w-25">
-                <p className="fs-4">”Every day, they strive to improve their service to the clients by developing the right blend of 
-                technology and creativity to make sure every job done is done as efficiently as possible.”</p>
-                <p className="mt-5 fs-6">- Brian Moten</p>
+                <p className="fs-4">”Diariamente, a equipe busca inovar e aperfeiçoar seus processos,
+                unindo expertise técnica e pensamento criativo para entregar resultados consistentes,
+                ágeis e de alta qualidade para cada cliente.”</p>
+                <p className="mt-5 fs-6">- Rogério Santos (Educador)</p>
               </div>
             </div>
         </section>

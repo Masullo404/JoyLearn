@@ -1,5 +1,5 @@
 .FirstSection{
-    & > video{
+    & > img{
         filter: brightness(0.5);
     }
 }
@@ -56,5 +56,13 @@
         div , img{
             width: 90% !important;
         }
+    }
+    div.Cards{
+        padding: 1rem !important;
+    }
+}
+@media screen and (max-width:400px) {
+    .FirstSection p.display-1{
+        font-size: 18px !important;
     }
 }

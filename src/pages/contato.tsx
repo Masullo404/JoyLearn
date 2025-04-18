@@ -1,8 +1,8 @@
 export default function ContatoPage(){
     return(
         <main className="DPad d-flex flex-column align-items-center gap-5 Contato text-white">
-            <h1 className="display-3 text-bold">Entre em contato Conosco</h1>
-            <p className="fs-5">Estamos aqui para ajudar no seu aprendizado especial.</p>
+            <h1 className="display-3 text-bold ps-2">Entre em contato Conosco</h1>
+            <p className="ps-2 fs-5">Estamos aqui para ajudar no seu aprendizado especial.</p>
             <div className="d-flex justify-content-center w-75 align-items-center">
                 <form action="" className="d-flex flex-column w-50 p-5 text-black justify-content-center rounded text-white fs-5">
                     <label htmlFor="name">Seu nome completo</label>

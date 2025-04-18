@@ -2,8 +2,8 @@ export default function RecursosPage(){
     return(
         <main>
             <section className="DPad d-flex flex-column align-items-center RecursosFirstSection text-white">
-                <p className="display-3 text-bold">Recursos Educacionais Inclusivos</p>
-                <p className="fs-5">Oferecemos ferramentas para apoiar crianças com necessidades especiais em seu aprendizado.</p>
+                <p className="display-3 text-bold px-3">Recursos Educacionais Inclusivos</p>
+                <p className="fs-5 px-3">Oferecemos ferramentas para apoiar crianças com necessidades especiais em seu aprendizado.</p>
                 <div className="d-flex justify-content-center gap-5 mt-5 p-5">
                     <img src="https://images.unsplash.com/photo-1653412442323-6dc7d73531bf" alt="" className="w-50 object-fit-cover" />
                     <div>
@@ -21,7 +21,7 @@ export default function RecursosPage(){
 
             <section className="d-flex flex-column align-items-center DPad">
                 <p className="display-1">Galeria JoyLearn</p>
-                <p className="fs-5">Explore recursos visuais para apoiar a educação especial infantil.</p>
+                <p className="fs-5 ps-2">Explore recursos visuais para apoiar a educação especial infantil.</p>
                 <div className="Galeria w-75 p-5 justify-content-center">
                     <img src="https://images.unsplash.com/photo-1588075592405-d3d4f0846961?auto=format&fit=crop&w=656&h=649" alt=""  />
                     <img src="https://images.unsplash.com/photo-1597933471507-1ca5765185d8?auto=format&fit=crop&w=656&h=649" alt="" />

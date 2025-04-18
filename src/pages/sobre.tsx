@@ -44,7 +44,7 @@ export default function SobrePage(){
 
             <section className="DPad SobreThirdSection text-white d-flex flex-column align-items-center SobreThirdSection">
                 <div className="d-flex flex-column justify-content-center gap-5 mb-5 w-75">
-                    <p className="ps-5 display-2">Nossa história</p>
+                    <p className="display-2">Nossa história</p>
                     <p className="fs-5">Nós imaginamos um mundo onde o aprendizado seja verdadeiramente 
                     inclusivo, onde cada criança — independentemente de seus desafios 
                     de aprendizagem — tenha acesso a uma educação de qualidade que se 
@@ -55,14 +55,14 @@ export default function SobrePage(){
                     <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=2448&h=640" alt="" className="w-100" />
                 </div>
                 <div className="d-flex flex-column justify-content-center gap-3 mt-5 w-75">
-                    <p className="ps-5 display-2">Nossa história</p>
-                    <p className="fs-5">Nós imaginamos um mundo onde o aprendizado seja verdadeiramente 
-                    inclusivo, onde cada criança — independentemente de seus desafios 
-                    de aprendizagem — tenha acesso a uma educação de qualidade que se 
-                    adapte às suas necessidades. À medida que continuamos a crescer, 
-                    permanecemos comprometidos em aprimorar nossa plataforma, incorporando 
-                    as pesquisas mais recentes e fomentando uma comunidade de apoio composta
-                    por alunos, pais e educadores.</p>
+                    <p className="display-2">Nossa visão</p>
+                    <p className="fs-5">Nossa visão é construir um futuro onde a educação seja acessível,
+                    personalizada e inclusiva para todos. Acreditamos em um mundo onde cada criança,
+                    com suas singularidades e desafios, possa aprender de forma significativa,
+                    no seu próprio ritmo e com as ferramentas certas. À medida que evoluímos,
+                    continuamos dedicados a transformar esse ideal em realidade, aprimorando
+                    constantemente nossa plataforma com base em pesquisas atualizadas e fortalecendo
+                    uma comunidade acolhedora de alunos, familiares e educadores comprometidos com o crescimento coletivo.</p>
                     <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=2448&h=640" alt="" className="w-100 obje" />
                 </div>
             </section>

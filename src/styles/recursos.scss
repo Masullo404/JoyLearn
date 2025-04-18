@@ -32,13 +32,18 @@
 }
 @media screen and (max-width:700px) {
     .RecursosFirstSection{
-        div{
+       & > div{
             flex-direction: column;
+            padding: 0px 0.8rem  !important;
             img{
                 width: 100% !important;
             }
         }
     }
+    section.FAQ{
+        padding-top: 2rem;
+    }
+
     .FAQ > div{
         width: 100% !important;
         div{
